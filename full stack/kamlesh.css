@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+.team ul{ 
+    display:flex;
+    text-decoration: none;
+    padding-right: 1000px;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+.team ul li{
+    list-style-type: none;
+}
+.team ul li a{
+    text-decoration: none;
+}
+.front{
+    position: relative;
+}
+.fronttxt{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.fronttxt h4{
+    background-color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.front:hover .fronttxt{
+    opacity: 1;
+}
+.frontimg img{
+    height: 600px;
+    width: 100%;
+}
+.photo{
+    text-align: center;
+}
+.photo img{
+    width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding-top: 30px;
+}
+.image1 {
+    position:absolute;
+    width: 600px;
+
+}
+.image1 img{
+}
+.text{
+    text-align: center;
+}
+
+.text p{
+    font-size: larger;
+    color: rgb(21, 21, 234);
+}
+.text1 p{
+    color: rgb(26, 25, 25);
+    font-size: medium;
+    padding-top: 130px;
+}
+.myphoto {
+    text-align: center;
+    color: rgb(68, 0, 255);
+
+}
+.image{
+   
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+.image img{
+    height: auto;
+    width: 100%;
+    max-width: 350px;
+}
